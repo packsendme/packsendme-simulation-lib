@@ -7,6 +7,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.Paths;
 
+import org.apache.tomcat.util.http.fileupload.FileUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
 
@@ -17,7 +18,8 @@ public class SimulatioRequestDto_Test {
 
 	private SimulationRequest_Dto simulationRequest_Dto = new SimulationRequest_Dto();
 	private String jsonSouthAmerica = null;
-
+	private String url_json = "src/test/resources/simulation_request_v1.json";
+	
 	@Test
 	void generateSimulationRequest() throws URISyntaxException, IOException {
 	
@@ -39,15 +41,15 @@ public class SimulatioRequestDto_Test {
 	
 	void inputJsonFileSouthAmerica(String jsonSouthAmerica) throws IOException, URISyntaxException {
 		ObjectMapper mapper = new ObjectMapper();
-		URL res = getClass().getClassLoader().getResource("simulation_request_v1.json");
-		File file = Paths.get(res.toURI()).toFile();
+		
+		File file = new File(url_json);
 		if (file.length() != 0) {
 			String absolutePath = file.getAbsolutePath();
 			SimulationRequest_Dto obj = mapper.readValue(new File(absolutePath), SimulationRequest_Dto.class);
 			Assert.notNull(obj);
 		}
 		else {
-			try (FileWriter fileWriter = new FileWriter("src/test/java/simulation_request_v1.json", true)) {
+			try (FileWriter fileWriter = new FileWriter(url_json, true)) {
 			    fileWriter.write(jsonSouthAmerica);
 			}
 		}
