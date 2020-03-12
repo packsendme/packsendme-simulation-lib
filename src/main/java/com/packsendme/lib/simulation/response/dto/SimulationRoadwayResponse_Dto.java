@@ -20,16 +20,16 @@ public class SimulationRoadwayResponse_Dto implements Serializable {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
-	private String currency_simulation;
-	private String address_origin;
-	private String address_destination;
-	private boolean status_simulation;
+	public static final long serialVersionUID = 1L;
+	public String currency_simulation;
+	public String address_origin;
+	public String address_destination;
+	public boolean status_simulation;
 	
-	private SimulationBicycleResponse_Dto simulationBicycle = new SimulationBicycleResponse_Dto();
-	private SimulationCarResponse_Dto simulationCar = new SimulationCarResponse_Dto();
-	private SimulationMotorcycleResponse_Dto simulationMotorcyle = new SimulationMotorcycleResponse_Dto();
-	private SimulationTruckResponse_Dto simulationTruck = new SimulationTruckResponse_Dto();
-	private SimulationWalkResponse_Dto simulationWalk = new SimulationWalkResponse_Dto();
+	public SimulationBicycleResponse_Dto simulationBicycle = new SimulationBicycleResponse_Dto();
+	public SimulationCarResponse_Dto simulationCar = new SimulationCarResponse_Dto();
+	public SimulationMotorcycleResponse_Dto simulationMotorcyle = new SimulationMotorcycleResponse_Dto();
+	public SimulationTruckResponse_Dto simulationTruck = new SimulationTruckResponse_Dto();
+	public SimulationWalkResponse_Dto simulationWalk = new SimulationWalkResponse_Dto();
 
 }

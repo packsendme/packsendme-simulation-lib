@@ -17,13 +17,13 @@ public class SimulationAirwayResponse_Dto implements Serializable {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
-	private String currency_simulation;
-	private String address_origin;
-	private String address_destination;
-	private boolean status_simulation;
+	public static final long serialVersionUID = 1L;
+	public String currency_simulation;
+	public String address_origin;
+	public String address_destination;
+	public boolean status_simulation;
 	
-	private SimulationAirplaneResponse_Dto simulationBag = new SimulationAirplaneResponse_Dto();
-	private SimulationContainerAirlineResponse_Dto simulationContainerAirline = new SimulationContainerAirlineResponse_Dto();
+	public SimulationAirplaneResponse_Dto simulationBag = new SimulationAirplaneResponse_Dto();
+	public SimulationContainerAirlineResponse_Dto simulationContainerAirline = new SimulationContainerAirlineResponse_Dto();
 	
 }

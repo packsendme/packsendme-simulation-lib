@@ -14,6 +14,6 @@ public class SimulationCarResponse_Dto implements Serializable  {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
-	private Double cost_car;
+	public static final long serialVersionUID = 1L;
+	public Double cost_car;
 }

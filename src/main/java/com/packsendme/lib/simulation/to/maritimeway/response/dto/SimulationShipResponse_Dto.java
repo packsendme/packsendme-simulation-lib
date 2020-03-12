@@ -14,7 +14,7 @@ public class SimulationShipResponse_Dto implements Serializable  {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
-	private Double cost_shipcontainer;
+	public static final long serialVersionUID = 1L;
+	public Double cost_shipcontainer;
 	
 }
