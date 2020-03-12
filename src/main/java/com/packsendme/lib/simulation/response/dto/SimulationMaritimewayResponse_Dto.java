@@ -16,12 +16,12 @@ public class SimulationMaritimewayResponse_Dto implements Serializable {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
-	private String currency_simulation;
-	private String address_origin;
-	private String address_destination;
-	private boolean status_simulation;
+	public static final long serialVersionUID = 1L;
+	public String currency_simulation;
+	public String address_origin;
+	public String address_destination;
+	public boolean status_simulation;
 	
-	private SimulationShipResponse_Dto simulationShip = new SimulationShipResponse_Dto();
+	public SimulationShipResponse_Dto simulationShip = new SimulationShipResponse_Dto();
 
 }
