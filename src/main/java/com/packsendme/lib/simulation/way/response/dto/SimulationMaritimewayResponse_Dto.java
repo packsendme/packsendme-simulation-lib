@@ -1,8 +1,8 @@
-package com.packsendme.lib.simulation.response.dto;
+package com.packsendme.lib.simulation.way.response.dto;
 
 import java.io.Serializable;
 
-import com.packsendme.lib.simulation.to.maritimeway.response.dto.SimulationShipResponse_Dto;
+import com.packsendme.lib.simulation.way.maritimeway.response.dto.SimulationShipResponse_Dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

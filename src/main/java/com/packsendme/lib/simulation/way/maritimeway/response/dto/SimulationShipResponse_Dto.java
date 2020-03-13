@@ -1,4 +1,4 @@
-package com.packsendme.lib.simulation.to.maritimeway.response.dto;
+package com.packsendme.lib.simulation.way.maritimeway.response.dto;
 
 import java.io.Serializable;
 

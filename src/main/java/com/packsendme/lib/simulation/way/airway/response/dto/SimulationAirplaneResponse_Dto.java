@@ -1,4 +1,4 @@
-package com.packsendme.lib.simulation.to.roadway.response.dto;
+package com.packsendme.lib.simulation.way.airway.response.dto;
 
 import java.io.Serializable;
 
@@ -9,11 +9,11 @@ import lombok.Setter;
 @Getter 
 @Setter 
 @NoArgsConstructor
-public class SimulationCarResponse_Dto implements Serializable  {
+public class SimulationAirplaneResponse_Dto implements Serializable  {
 	
 	/**
 	 * 
 	 */
 	public static final long serialVersionUID = 1L;
-	public Double cost_car;
+	public Double cost_bag;	
 }

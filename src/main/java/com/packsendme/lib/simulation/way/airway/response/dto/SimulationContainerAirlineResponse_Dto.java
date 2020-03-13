@@ -1,4 +1,4 @@
-package com.packsendme.lib.simulation.to.airway.response.dto;
+package com.packsendme.lib.simulation.way.airway.response.dto;
 
 import java.io.Serializable;
 

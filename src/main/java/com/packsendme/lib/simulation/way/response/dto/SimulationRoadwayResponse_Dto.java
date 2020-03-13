@@ -1,12 +1,12 @@
-package com.packsendme.lib.simulation.response.dto;
+package com.packsendme.lib.simulation.way.response.dto;
 
 import java.io.Serializable;
 
-import com.packsendme.lib.simulation.to.roadway.response.dto.SimulationBicycleResponse_Dto;
-import com.packsendme.lib.simulation.to.roadway.response.dto.SimulationCarResponse_Dto;
-import com.packsendme.lib.simulation.to.roadway.response.dto.SimulationMotorcycleResponse_Dto;
-import com.packsendme.lib.simulation.to.roadway.response.dto.SimulationTruckResponse_Dto;
-import com.packsendme.lib.simulation.to.roadway.response.dto.SimulationWalkResponse_Dto;
+import com.packsendme.lib.simulation.way.roadway.response.dto.SimulationBicycleResponse_Dto;
+import com.packsendme.lib.simulation.way.roadway.response.dto.SimulationCarResponse_Dto;
+import com.packsendme.lib.simulation.way.roadway.response.dto.SimulationMotorcycleResponse_Dto;
+import com.packsendme.lib.simulation.way.roadway.response.dto.SimulationTruckResponse_Dto;
+import com.packsendme.lib.simulation.way.roadway.response.dto.SimulationWalkResponse_Dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
