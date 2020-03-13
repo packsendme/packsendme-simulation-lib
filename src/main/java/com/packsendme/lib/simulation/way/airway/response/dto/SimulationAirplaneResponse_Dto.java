@@ -16,4 +16,5 @@ public class SimulationAirplaneResponse_Dto implements Serializable  {
 	 */
 	public static final long serialVersionUID = 1L;
 	public Double cost_bag;	
+	public Boolean status_bag;
 }
