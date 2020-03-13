@@ -16,4 +16,6 @@ public class SimulationMotorcycleResponse_Dto implements Serializable  {
 	 */
 	public static final long serialVersionUID = 1L;
 	public Double cost_motorcycle;
+	public Boolean status_motorcycle;
+
 }

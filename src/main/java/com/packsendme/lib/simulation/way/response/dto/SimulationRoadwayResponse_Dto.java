@@ -24,7 +24,7 @@ public class SimulationRoadwayResponse_Dto implements Serializable {
 	public String currency_simulation;
 	public String address_origin;
 	public String address_destination;
-	public boolean status_simulation;
+	public boolean status_roadway;
 	
 	public SimulationBicycleResponse_Dto simulationBicycle = new SimulationBicycleResponse_Dto();
 	public SimulationCarResponse_Dto simulationCar = new SimulationCarResponse_Dto();

@@ -16,4 +16,5 @@ public class SimulationWalkResponse_Dto implements Serializable  {
 	 */
 	public static final long serialVersionUID = 1L;
 	public Double cost_walk;
+	public Boolean status_walk;
 }
