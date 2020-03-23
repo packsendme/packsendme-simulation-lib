@@ -15,6 +15,8 @@ public class SimulationBicycleResponse_Dto implements Serializable  {
 	 * 
 	 */
 	public static final long serialVersionUID = 1L;
-	public Double cost_bicycle;
+	public Double cost_delivery_bicycle;
+	public Double cost_reshipping_bicycle;
+
 	public Boolean status_bicycle;
 }
