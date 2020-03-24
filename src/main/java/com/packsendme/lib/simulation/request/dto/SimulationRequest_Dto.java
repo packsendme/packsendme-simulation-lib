@@ -20,9 +20,5 @@ public class SimulationRequest_Dto implements Serializable {
 	public double weight_product;
 	public String type_delivery;
 	public String unity_measurement_weight;
-	public String unity_measurement_distance_api;
 	public String unity_measurement_distance_txt;
-	
-	
-		
 }
