@@ -30,7 +30,8 @@ public class SimulatioRequestDto_Test {
 		simulationRequest_Dto.type_delivery = "Express";
 		simulationRequest_Dto.weight_product = 20.00;
 		simulationRequest_Dto.unity_measurement_weight = "gr";
-		simulationRequest_Dto.unity_measurement_distance = "km";
+		simulationRequest_Dto.unity_measurement_distance_api = "METRIC"; //IMPERIAL
+		simulationRequest_Dto.unity_measurement_distance_txt = "km";
 		
 		ObjectMapper mapper = new ObjectMapper();
 		jsonSouthAmerica = mapper.writeValueAsString(simulationRequest_Dto);
