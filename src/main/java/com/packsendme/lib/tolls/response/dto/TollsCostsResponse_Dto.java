@@ -14,10 +14,8 @@ public class TollsCostsResponse_Dto implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	public String name_country;
-	public Double toll_cost;
-	public String currency_cost;
-	public String currency_desc;
-	public String status;
+	public Double average_price_toll;
+	public String currency_price;
+	public boolean status;
 	
 }
