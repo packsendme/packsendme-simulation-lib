@@ -14,8 +14,7 @@ public class TollsResponse_Dto implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	public Map<String, TollsCountryResponse_Dto> countryTolls = new HashMap<String, TollsCountryResponse_Dto>();
 	public boolean status_tolls;
-	public Map<String, Integer> countryTolls = new HashMap<String, Integer>();
-	public Map<String, TollsCostsResponse_Dto> costsTolls = new HashMap<String, TollsCostsResponse_Dto>();
 
 }
