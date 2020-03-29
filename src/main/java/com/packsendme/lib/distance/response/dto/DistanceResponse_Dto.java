@@ -16,7 +16,7 @@ public class DistanceResponse_Dto implements Serializable {
 	
 	public String destination;
 	public String origin;
-	public double distance;
+	public int distance;
 	public String measureUnit;
 	public String status;
 }
