@@ -19,14 +19,16 @@ public class TollsCountryResponse_Dto implements Serializable {
 	public Double average_price_toll;
 	public Double distance_country;
 	public String currency_price;
+	public String unity_measurement_distance;
 	
-	public TollsCountryResponse_Dto(String name_country, int toll_amount, Double average_price_toll,
-			Double distance_country, String currency_price) {
+	public TollsCountryResponse_Dto(String name_country, int toll_amount, Double distance_country,
+			String unity_measurement_distance, Double average_price_toll, String currency_price) {
 		super();
 		this.name_country = name_country;
 		this.toll_amount = toll_amount;
-		this.average_price_toll = average_price_toll;
 		this.distance_country = distance_country;
+		this.unity_measurement_distance = unity_measurement_distance;
+		this.average_price_toll = average_price_toll;
 		this.currency_price = currency_price;
 	}
 	
