@@ -1,4 +1,4 @@
-package com.packsendme.lib.tolls.response.dto;
+package com.packsendme.lib.simulation.roadway.response.dto;
 
 import java.io.Serializable;
 
