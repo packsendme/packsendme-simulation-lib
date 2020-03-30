@@ -1,4 +1,4 @@
-package com.packsendme.lib.distance.response.dto;
+package com.packsendme.lib.simulation.distance.response.dto;
 
 import java.io.Serializable;
 
