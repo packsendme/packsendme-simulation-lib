@@ -1,4 +1,4 @@
-package com.packsendme.lib.simulation.request.dto;
+package com.packsendme.lib.simulation.http;
 
 import java.io.Serializable;
 

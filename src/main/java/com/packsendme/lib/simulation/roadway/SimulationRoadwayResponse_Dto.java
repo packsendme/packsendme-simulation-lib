@@ -1,10 +1,8 @@
-package com.packsendme.lib.simulation.way.response.dto;
+package com.packsendme.lib.simulation.roadway;
 
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
-
-import com.packsendme.lib.simulation.way.roadway.response.dto.RoadwayCalculatorResponse_Dto;
 
 import lombok.Getter;
 import lombok.Setter;
