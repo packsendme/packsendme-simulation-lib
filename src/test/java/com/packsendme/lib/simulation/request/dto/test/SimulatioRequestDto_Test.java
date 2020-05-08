@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.packsendme.lib.simulation.request.dto.SimulationRequest_Dto;
+import com.packsendme.lib.simulation.http.SimulationRequest_Dto;
 
 public class SimulatioRequestDto_Test {
 
