@@ -29,7 +29,8 @@ public class SimulationDataForCalculateRequest_Dto implements Serializable{
 	
 	public Double exchange_rate;
 	public Double percentage_packsend;
-	
+
+	// BRE
 	public RoadwayBRE_Model roadwayBRE_cache = new RoadwayBRE_Model();
 	public MaritimewayBRE_Model maritimewayBRE_cache = new MaritimewayBRE_Model();
 	public AirwayBRE_Model airwayBRE_cache = new AirwayBRE_Model();
