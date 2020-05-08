@@ -25,7 +25,6 @@ public class SimulatioRequestDto_Test {
 	
 		simulationRequest_Dto.address_origin = "Barcelona";
 		simulationRequest_Dto.address_destination = "Madrid";
-		simulationRequest_Dto.distances_places = 450.0;
 		simulationRequest_Dto.type_product = "Document";
 		simulationRequest_Dto.type_delivery = "Express";
 		simulationRequest_Dto.weight_product = 20.00;

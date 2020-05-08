@@ -76,6 +76,24 @@
     	<artifactId>modelmapper</artifactId>
     	<version>0.7.4</version>
 	</dependency>
+	
+	<dependency>
+		<groupId>com.packsendme.bre.roadway</groupId>
+		<artifactId>packsendme-roadway-bre</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>com.packsendme.bre.maritimeway</groupId>
+		<artifactId>packsendme-maritimeway-bre</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.packsendme.bre.airway</groupId>
+		<artifactId>packsendme-airway-bre</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
     
   </dependencies>
   
