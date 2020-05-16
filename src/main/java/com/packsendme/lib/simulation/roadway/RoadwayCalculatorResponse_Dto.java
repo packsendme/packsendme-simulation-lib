@@ -21,9 +21,20 @@ public class RoadwayCalculatorResponse_Dto implements Serializable{
 	public String vlr_reshipping;
 	public String vlr_total;
 	public boolean status;
-	public Map<String,RoadwayDataCalculatorResponse_Dto> roadwayDataCalculator = new HashMap<String,RoadwayDataCalculatorResponse_Dto>();
+	//public Map<String,RoadwayDataCalculatorResponse_Dto> roadwayDataCalculator = new HashMap<String,RoadwayDataCalculatorResponse_Dto>();
 	
 	
+	public RoadwayCalculatorResponse_Dto(String vlr_employer_total, String vlr_packsend_total,
+			String vlr_delivery_total, String vlr_reshipping, String vlr_total, boolean status) {
+		super();
+		this.vlr_employer_total = vlr_employer_total;
+		this.vlr_packsend_total = vlr_packsend_total;
+		this.vlr_delivery_total = vlr_delivery_total;
+		this.vlr_reshipping = vlr_reshipping;
+		this.vlr_total = vlr_total;
+		this.status = status;
+	}
+/*
 	public RoadwayCalculatorResponse_Dto(String vlr_employer_total, String vlr_packsend_total,
 			String vlr_delivery_total, String vlr_reshipping, String vlr_total, boolean status,
 			Map<String, RoadwayDataCalculatorResponse_Dto> roadwayDataCalculator) {
@@ -36,8 +47,7 @@ public class RoadwayCalculatorResponse_Dto implements Serializable{
 		this.status = status;
 		this.roadwayDataCalculator = roadwayDataCalculator;
 	}
-
-
+*/
 
 
 	public RoadwayCalculatorResponse_Dto() {
