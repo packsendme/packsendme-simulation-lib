@@ -19,6 +19,7 @@ public class SimulationDataForCalculateRequest_Dto implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	public Double weight_product = 0.0;
+	public Double weight_productGr = 0.0;
 	public String weight_measured_unit;
 	public String delivery_type;
 	public Double rate_exchange = 0.0;
@@ -36,11 +37,12 @@ public class SimulationDataForCalculateRequest_Dto implements Serializable{
 	public AirwayBRE_Model airwayBRE_cache = new AirwayBRE_Model();
 	
 
-	public SimulationDataForCalculateRequest_Dto(Double weight_product, String weight_measured_unit,
+	public SimulationDataForCalculateRequest_Dto(Double weight_product, Double weight_productGr, String weight_measured_unit,
 			String delivery_type, String locale_language, String locale_country, Double exchange_rate,
 			Double percentage_packsend, RoadwayBRE_Model roadwayBRE_cache) {
 		super();
 		this.weight_product = weight_product;
+		this.weight_productGr = weight_productGr;
 		this.weight_measured_unit = weight_measured_unit;
 		this.delivery_type = delivery_type;
 		this.locale_language = locale_language;
@@ -50,11 +52,12 @@ public class SimulationDataForCalculateRequest_Dto implements Serializable{
 		this.roadwayBRE_cache = roadwayBRE_cache;
 	}
 	
-	public SimulationDataForCalculateRequest_Dto(Double weight_product, String weight_measured_unit,
+	public SimulationDataForCalculateRequest_Dto(Double weight_product, Double weight_productGr, String weight_measured_unit,
 			String delivery_type, String locale_language, String locale_country, Double exchange_rate,
 			Double percentage_packsend, MaritimewayBRE_Model maritimewayBRE_cache) {
 		super();
 		this.weight_product = weight_product;
+		this.weight_productGr = weight_productGr;
 		this.weight_measured_unit = weight_measured_unit;
 		this.delivery_type = delivery_type;
 		this.locale_language = locale_language;
@@ -64,11 +67,12 @@ public class SimulationDataForCalculateRequest_Dto implements Serializable{
 		this.maritimewayBRE_cache = maritimewayBRE_cache;
 	}
 	
-	public SimulationDataForCalculateRequest_Dto(Double weight_product, String weight_measured_unit,
+	public SimulationDataForCalculateRequest_Dto(Double weight_product, Double weight_productGr, String weight_measured_unit,
 			String delivery_type, String locale_language, String locale_country, Double exchange_rate,
 			Double percentage_packsend, AirwayBRE_Model airwayBRE_cache) {
 		super();
 		this.weight_product = weight_product;
+		this.weight_productGr = weight_productGr;
 		this.weight_measured_unit = weight_measured_unit;
 		this.delivery_type = delivery_type;
 		this.locale_language = locale_language;
