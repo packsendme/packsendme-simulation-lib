@@ -4,7 +4,6 @@ import java.io.Serializable;
 
 import com.packsendme.airway.bre.rule.model.AirwayBRE_Model;
 import com.packsendme.maritimeway.bre.rule.model.MaritimewayBRE_Model;
-import com.packsendme.roadway.bre.rule.model.RoadwayBRE_Model;
 
 import lombok.Getter;
 import lombok.Setter;
