@@ -1,4 +1,4 @@
-package com.packsendme.lib.simulation.http;
+package com.packsendme.lib.simulation.roadway;
 
 import java.io.Serializable;
 
@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter 
 @Setter 
-public class SimulationRequest_Dto implements Serializable {
+public class SimulationRequestClient_Dto implements Serializable {
 	
 	/**
 	 * 

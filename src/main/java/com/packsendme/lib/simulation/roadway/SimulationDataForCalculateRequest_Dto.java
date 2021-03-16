@@ -1,4 +1,4 @@
-package com.packsendme.lib.simulation.http;
+package com.packsendme.lib.simulation.roadway;
 
 import java.io.Serializable;
 
@@ -31,14 +31,14 @@ public class SimulationDataForCalculateRequest_Dto implements Serializable{
 	public Double percentage_packsend;
 
 	// BRE
-	public RoadwayBRE_Model roadwayBRE_cache = new RoadwayBRE_Model();
+	//public RoadwayBRE_Model roadwayBRE_cache = new RoadwayBRE_Model();
 	public MaritimewayBRE_Model maritimewayBRE_cache = new MaritimewayBRE_Model();
 	public AirwayBRE_Model airwayBRE_cache = new AirwayBRE_Model();
 	
 
 	public SimulationDataForCalculateRequest_Dto(Double weight_product, Double weight_productGr, String weight_measured_unit,
 			String delivery_type, String locale_language, String locale_country, Double exchange_rate,
-			Double percentage_packsend, RoadwayBRE_Model roadwayBRE_cache) {
+			Double percentage_packsend) { //, RoadwayBRE_Model roadwayBRE_cache) {
 		super();
 		this.weight_product = weight_product;
 		this.weight_productGr = weight_productGr;
@@ -48,7 +48,7 @@ public class SimulationDataForCalculateRequest_Dto implements Serializable{
 		this.locale_country = locale_country;
 		this.exchange_rate = exchange_rate;
 		this.percentage_packsend = percentage_packsend;
-		this.roadwayBRE_cache = roadwayBRE_cache;
+		//this.roadwayBRE_cache = roadwayBRE_cache;
 	}
 	
 	public SimulationDataForCalculateRequest_Dto(Double weight_product, Double weight_productGr, String weight_measured_unit,

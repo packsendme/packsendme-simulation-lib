@@ -1,10 +1,9 @@
-package com.packsendme.lib.simulation.http;
+package com.packsendme.lib.simulation.roadway;
 
 import java.io.Serializable;
 
 import com.packsendme.lib.simulation.airway.SimulationAirwayResponse_Dto;
 import com.packsendme.lib.simulation.maritimeway.SimulationMaritimewayResponse_Dto;
-import com.packsendme.lib.simulation.roadway.SimulationRoadwayResponse_Dto;
 
 import lombok.Getter;
 import lombok.Setter;
