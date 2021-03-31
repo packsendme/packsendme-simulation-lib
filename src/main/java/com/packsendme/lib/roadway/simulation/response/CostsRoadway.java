@@ -36,7 +36,7 @@ public class CostsRoadway implements Serializable {
 	public CostsRoadway(String vehicle, String vlr_weight, String vlr_dimension, String vlr_distance,
 			String vlr_worktime, String vlr_tolls, String vlr_fuelconsumption, String vlr_fragile,
 			String vlr_persishable, String vlr_reshipping, String vlr_operationOwner, String vlr_employeer,
-			String exchange_currency, String cost_total_US, String cost_total_EX) {
+			String cost_total_US, String cost_total_EX, String exchange_currency) {
 		super();
 		this.vehicle = vehicle;
 		this.vlr_weight = vlr_weight;
@@ -50,9 +50,9 @@ public class CostsRoadway implements Serializable {
 		this.vlr_reshipping = vlr_reshipping;
 		this.vlr_operationOwner = vlr_operationOwner;
 		this.vlr_employeer = vlr_employeer;
-		this.exchange_currency = exchange_currency;
 		this.cost_total_US = cost_total_US;
 		this.cost_total_EX = cost_total_EX;
+		this.exchange_currency = exchange_currency;
 	}
 
 
