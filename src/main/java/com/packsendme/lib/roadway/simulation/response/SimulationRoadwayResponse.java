@@ -20,7 +20,7 @@ public class SimulationRoadwayResponse implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	public String distance_total;
+	public double distance_total;
 	public int duration;
 	public int toll_total;
 	
@@ -29,7 +29,7 @@ public class SimulationRoadwayResponse implements Serializable {
 	public Date dt_simulation;
 	
 
-	public SimulationRoadwayResponse(String distance_total, int duration, int toll_total,
+	public SimulationRoadwayResponse(double distance_total, int duration, int toll_total,
 			SimulationRoadwayRequest_Dto requestData, List<CostsRoadway> responseData, Date dt_simulation) {
 		super();
 		this.distance_total = distance_total;
