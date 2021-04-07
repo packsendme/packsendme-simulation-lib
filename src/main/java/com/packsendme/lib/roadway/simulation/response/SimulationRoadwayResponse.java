@@ -8,6 +8,7 @@ import java.util.List;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import com.packsendme.lib.roadway.simulation.request.SimulationRoadwayRequest;
 import com.packsendme.lib.roadway.simulation.request.SimulationRoadwayRequest_Dto;
 
 import lombok.Getter;
@@ -29,13 +30,13 @@ public class SimulationRoadwayResponse implements Serializable {
 	public int duration;
 	public int toll_total;
 	
-	public SimulationRoadwayRequest_Dto requestData;
+	public SimulationRoadwayRequest requestData;
 	public List<CostsRoadway> responseData = new ArrayList<CostsRoadway>();
 	public Date dt_simulation;
 	
 
 	public SimulationRoadwayResponse(double distance_total, int duration, int toll_total,
-			SimulationRoadwayRequest_Dto requestData, List<CostsRoadway> responseData, Date dt_simulation) {
+			SimulationRoadwayRequest requestData, List<CostsRoadway> responseData, Date dt_simulation) {
 		super();
 		this.distance_total = distance_total;
 		this.duration = duration;
