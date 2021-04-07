@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.packsendme.lib.roadway.simulation.request.SimulationRoadwayRequest_Dto;
@@ -22,6 +23,8 @@ public class SimulationRoadwayResponse implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
+	@Id
+	public String id;
 	public double distance_total;
 	public int duration;
 	public int toll_total;
