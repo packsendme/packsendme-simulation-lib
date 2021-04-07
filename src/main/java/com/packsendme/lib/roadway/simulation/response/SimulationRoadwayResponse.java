@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.packsendme.lib.common.response.dto.api.GoogleAPITrackingResponse_Dto;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import com.packsendme.lib.roadway.simulation.request.SimulationRoadwayRequest_Dto;
 
 import lombok.Getter;
@@ -13,6 +14,7 @@ import lombok.Setter;
 
 @Setter
 @Getter
+@Document(collection = "pcks_roadway_simulation")
 public class SimulationRoadwayResponse implements Serializable {
 		
 	/**
