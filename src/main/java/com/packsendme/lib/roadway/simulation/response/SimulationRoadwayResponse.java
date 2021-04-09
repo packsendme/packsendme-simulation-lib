@@ -26,8 +26,8 @@ public class SimulationRoadwayResponse implements Serializable {
 
 	@Id
 	public String id;
-	public String distance_total;
-	public String duration;
+	public double distance_total;
+	public int duration;
 	public int toll_total;
 	
 	public SimulationRoadwayRequest requestData;
@@ -35,7 +35,7 @@ public class SimulationRoadwayResponse implements Serializable {
 	public Date dt_simulation;
 	
 
-	public SimulationRoadwayResponse(String distance_total, String duration, int toll_total,
+	public SimulationRoadwayResponse(double distance_total, int duration, int toll_total,
 			SimulationRoadwayRequest requestData, List<CostsRoadway> responseData, Date dt_simulation) {
 		super();
 		this.distance_total = distance_total;
