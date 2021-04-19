@@ -1,6 +1,8 @@
 package com.packsendme.lib.roadway.simulation.request;
 
 import java.io.Serializable;
+import java.util.HashMap;
+import java.util.Map;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -20,7 +22,7 @@ public class SimulationRoadwayRequest implements Serializable{
 	public String product_transport;
 	public int people;
 	public Double weight_max;
-	public String unity_weight;
+	public Map<Integer, String> unity_weight = new HashMap<Integer, String>();
 	public Double height_max;
 	public Double width_max;
 	public Double length_max;

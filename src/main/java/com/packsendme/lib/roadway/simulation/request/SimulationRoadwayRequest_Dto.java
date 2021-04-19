@@ -1,7 +1,8 @@
 package com.packsendme.lib.roadway.simulation.request;
 
 import java.io.Serializable;
-import java.util.Locale;
+import java.util.HashMap;
+import java.util.Map;
 
 import com.packsendme.lib.common.exchange.Exchange;
 import com.packsendme.lib.common.response.dto.api.GoogleAPITrackingResponse_Dto;
@@ -25,7 +26,7 @@ public class SimulationRoadwayRequest_Dto implements Serializable{
 	public String product_transport;
 	public int people;
 	public Double weight_max;
-	public String unity_weight;
+	public Map<Integer, String> unity_weight = new HashMap<Integer, String>();
 	public Double height_max;
 	public Double width_max;
 	public Double length_max;
@@ -37,7 +38,7 @@ public class SimulationRoadwayRequest_Dto implements Serializable{
 	public Roadway roadwayRule;
 	
 	public SimulationRoadwayRequest_Dto(String address_origin, String address_destination, String type_transport,
-			String product_transport, int people, Double weight_max, String unity_weight, Double height_max,
+			String product_transport, int people, Double weight_max, Map<Integer, String> unity_weight, Double height_max,
 			Double width_max, Double length_max, String delivery_type, String language_locale, String country_locale,
 			Exchange exchangeObj, GoogleAPITrackingResponse_Dto googleTracking, Roadway roadwayRule) {
 		super();
