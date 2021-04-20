@@ -27,6 +27,7 @@ public class SimulationRoadwayRequest_Dto implements Serializable{
 	public int people;
 	public Double weight_max;
 	public Map<Integer, String> unity_weight = new HashMap<Integer, String>();
+	public String unityWeightS;
 	public Double height_max;
 	public Double width_max;
 	public Double length_max;
